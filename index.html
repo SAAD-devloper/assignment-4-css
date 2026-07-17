@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Three Navigation Bars</title>
+
+<style>
+
+            *{
+               margin:0;
+               padding:0;
+               box-sizing:border-box;
+               font-family:Arial,sans-serif;
+     }
+
+            body{
+             background:#B02C0C;
+             padding:40px;
+     }
+              p{
+              display:inline-block;
+              font-size:40px;
+              font-weight:bold;
+              border-radius:20px;
+              padding:8px 18px;
+              color: white;
+              background:#521D14;
+  }
+             
+
+/* Common Navigation */
+
+            nav{
+             width:95%;
+             margin:30px auto;
+             background:#87210B;
+             border-radius:20px;
+             padding:18px 40px;
+             display:flex;
+             justify-content:space-between;
+             align-items:center;
+             box-shadow:0 10px 20px rgba(0,0,0,.5);
+    }
+
+          .logo{
+             color:white;
+             font-size:32px;
+             font-weight:bold;
+    }
+
+           nav ul{
+             display:flex;
+             list-style:none;
+             gap:35px;
+             align-items:center;
+    }
+
+        nav ul li a{
+             color:white;
+             text-decoration:none;
+             font-size:20px;
+             transition:.3s;
+    }
+
+           nav ul li a:hover{
+                      color:#f5ff52;
+    }
+
+/* Navigation 1 */
+
+         .nav1 button{
+             background:#f5ff52;
+             color: black;
+             border:none;
+             padding:12px 28px;
+             border-radius:30px;
+             font-size:18px;
+             cursor:pointer;
+      }
+
+/* Navigation 2 */
+
+
+
+
+           .nav2 button{
+             background:#f5ff52;
+             color:black;
+             border:none;
+             padding:12px 28px;
+             border-radius:30px;
+             font-size:18px;
+             cursor:pointer;
+      }
+
+/* Navigation 3 */
+
+             .nav3 button{
+                   background:transparent;
+                   color:#f5ff52;
+                   border:2px solid #f5ff52;
+                   padding:10px 28px;
+                   border-radius:30px;
+                   font-size:18px;
+                   cursor:pointer;
+                   transition:.3s;
+     }
+
+           .nav3 button:hover{
+                    background:#f5ff52;
+                    color:black;
+   }
+
+</style>
+
+</head>
+<body>
+             <p>Assignment 04</p>
+
+<!-- Navigation 1 -->
+
+<nav class="nav1">
+
+<div class="logo">LOGO</div>
+
+<ul>
+<li><a href="#">About us</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Services</a></li>
+</ul>
+
+<button>Contact us</button>
+
+</nav>
+
+<!-- Navigation 2 -->
+
+<nav class="nav2">
+
+<div class="logo">LOGO</div>
+
+<ul>
+<li><a href="#">About us</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Services</a></li>
+</ul>
+
+<button>Contact us</button>
+
+</nav>
+
+<!-- Navigation 3 -->
+
+<nav class="nav3">
+
+<div class="logo">LOGO</div>
+
+<ul>
+<li><a href="#">About us</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Services</a></li>
+</ul>
+
+<button>Contact us</button>
+
+</nav>
+
+</body>
+</html>
